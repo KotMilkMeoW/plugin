@@ -1,0 +1,5 @@
+name: MinecraftExamplePlugin
+version: 1.0
+main: stellar.Plugin
+api-version: '1.16'
+author: Stellar network
