@@ -1,5 +1,5 @@
-name: MinecraftExamplePlugin
+name: RPG-TD 
 version: 1.0
 main: stellar.Plugin
 api-version: '1.16'
-author: Stellar network
+author: VoidDustry
