@@ -1,5 +1,4 @@
-name: RPG-TD 
-version: 1.0
-main: stellar.Plugin
-api-version: '1.16'
-author: VoidDustry
+name: plugin
+version: 0.1
+main: meowland.Main
+author: KotMilkMeoW
