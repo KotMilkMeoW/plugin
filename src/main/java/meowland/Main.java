@@ -4,7 +4,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.event.player.PlayerListener;
-import  org.bukkit.Server;
+import org.bukkit.Server;
+import org.bukkit.command;
+import org.bukkit.event;
 
 public class Main extends JavaPlugin
 {
