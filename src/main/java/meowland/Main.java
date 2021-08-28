@@ -1,6 +1,6 @@
 package meowland;
 
-import prg.bukkit.*;
+import org.bukkit.*;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
