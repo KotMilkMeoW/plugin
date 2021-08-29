@@ -6,8 +6,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
-import org.bukkit.event.Player;
-import org.bukkit.event.player.PlayerListener;
 import org.bukkit.Server;
 import org.bukkit.command.Command;
 
