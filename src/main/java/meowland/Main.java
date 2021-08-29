@@ -19,7 +19,7 @@ public class Main extends JavaPlugin
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
     if(cmd.getName().equalsIgnoreCase("Hi!")){
-         player = (Player) sender;
+         player = (Player).sender;
          player.sendMessage("Hello!");
          return true;
     }
