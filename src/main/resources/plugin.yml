@@ -2,3 +2,8 @@ name: plugin
 version: 0.1
 main: meowland.Main
 author: KotMilkMeoW
+commands:
+   hi:
+      description: i
+      permission: <plugin name>.hi
+      usage: /command
