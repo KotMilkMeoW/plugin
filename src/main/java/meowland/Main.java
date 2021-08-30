@@ -20,7 +20,8 @@ public class Main extends JavaPlugin
     @Override
     public void onEnable()
     {
-        this.getLogger().info("ПЛУГИН ЗАПУСТИЛСЯ!!! (УДИВИТЕЛЬНО)");
+         getCommand("sword").setExecutor(new CommandSword());
+         this.getLogger().info("ПЛУГИН ЗАПУСТИЛСЯ!!! (УДИВИТЕЛЬНО)");
     }
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
