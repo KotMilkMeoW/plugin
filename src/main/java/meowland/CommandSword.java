@@ -13,7 +13,7 @@ import org.bukkit.Material;
 public class CommandSword implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
          if(cmd.getName().equalsIgnoreCase("sword")){
-             Player player = (Player) sender;
+             Player player = event.getPlayer();
              ItemStack stack = new ItemStack(Material.DIAMOND_SWORD, 1);
              stack.addEnchantment(Enchantment.KNOCKBACK, 10);
              player.getInventory().addItem(stack);
