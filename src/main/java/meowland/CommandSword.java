@@ -18,5 +18,4 @@ public class CommandSword implements CommandExecutor {
     }
     return false;
     }
-    }
 }
