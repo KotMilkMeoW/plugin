@@ -15,10 +15,9 @@ public class CommandSword implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
          if(cmd.getName().equalsIgnoreCase("sword")){
              Player player = (Player) sender;
-             String xz = event.getName();
              ItemStack stack = new ItemStack(Material.DIAMOND_SWORD, 1);
              stack.addEnchantment(Enchantment.KNOCKBACK, 10);
-             xz.getInventory().addItem(stack);
+             player.getInventory().addItem(stack);
              return true;
          }
          return false;
