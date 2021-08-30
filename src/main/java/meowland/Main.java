@@ -8,6 +8,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.Server;
 import org.bukkit.command.Command;
+import org.bukkit.inventory.Inventory;
+import org.bukkit.enchantments.Enchantment;
 
 public class Main extends JavaPlugin
 {
