@@ -15,7 +15,7 @@ public class CommandSword implements CommandExecutor {
          if(cmd.getName().equalsIgnoreCase("sword")){
              Player player = (Player) sender;
              ItemStack stack = new ItemStack(Material.DIAMOND_SWORD, 1);
-             stack.addEnchantment(Enchantment.ARROW_DAMAGE, 10);
+             stack.addEnchantment(Enchantment.KNOCKBACK, 10);
              player.getInventory().addItem(stack);
              return true;
          }
