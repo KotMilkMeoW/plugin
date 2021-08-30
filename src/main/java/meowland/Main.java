@@ -24,4 +24,12 @@ public class Main extends JavaPlugin
     }
     return false;
     }
+    @Override
+    pooblic bolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
+    if(cmd.getName().equalsIgnoreCase("sword")){
+    sender.getInventory.addItem(new ItemStack(Material.DIAMAND_SWORD, 1).addEnchantment(Enchantment.ARROW_DAMAGE, 10));
+    return true;
+    }
+    return false;
+    }
 }
