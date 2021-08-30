@@ -7,3 +7,7 @@ commands:
       description: i
       permission: <plugin name>.hi
       usage: /command
+   sword: 
+      description: give sword
+      permission: <plugin name>.hi
+      usage: /command
