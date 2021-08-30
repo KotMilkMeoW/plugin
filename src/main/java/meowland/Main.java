@@ -9,7 +9,11 @@ import org.bukkit.event.Event;
 import org.bukkit.Server;
 import org.bukkit.command.Command;
 import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.enchantments.Enchantment;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.Material;
+import org.bukkit.Material.*;
 
 public class Main extends JavaPlugin
 {
