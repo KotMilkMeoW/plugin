@@ -12,11 +12,14 @@ import org.bukkit.Material;
 
 public class CommandSword implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
-    if(cmd.getName().equalsIgnoreCase("sword")){
-         Player player = (Player) sender;
-         player.getInventory().addItem(new ItemStack(Material.DIAMOND_SWORD, 1).addEnchantment(Enchantment.ARROW_DAMAGE, 10));
-         return true;
-    }
-    return false;
-    }
+         if(cmd.getName().equalsIgnoreCase("sword")){
+             Player player = (Player) sender;
+             ItemStack stack = new ItemStack(Material.DIAMOND_SWORD, 1);
+             stack.addEnchantment(Enchantment.ARROW_DAMAGE, 10);
+             player.getInventory().addItem(stack);
+             return true;
+         }
+         return false;
+}
+
 }
