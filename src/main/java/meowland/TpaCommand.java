@@ -17,9 +17,10 @@ import java.lang.Math;
 public class TpaCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
          if(cmd.getName().equalsIgnoreCase("tpa")){
-             int x = -3000 + Math.random()*3000;
-             int z = -3000 + Math.random()*3000;
-             int y = 70;
+             double x = -3000 + Math.random()*3000;
+             double z = -3000 + Math.random()*3000;
+             double y = 70;
+             Player player = (Player) sender;
              player.teleport(new Location(player.getWorld(), x, y, z));
              return true;
          }
