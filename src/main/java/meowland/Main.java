@@ -21,6 +21,7 @@ public class Main extends JavaPlugin
     public void onEnable()
     {
          getCommand("sword").setExecutor(new CommandSword());
+         getCommand("tpa").setExecutor(new TpaCommand());
          this.getLogger().info("ПЛУГИН ЗАПУСТИЛСЯ!!! (УДИВИТЕЛЬНО)");
     }
     @Override
