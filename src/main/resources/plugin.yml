@@ -11,3 +11,7 @@ commands:
       description: give sword
       permission: <plugin name>.hi
       usage: /command
+   tpa:
+      description: tp on random coordinates
+      permission: <plugin name>.tpa
+      usage: /command
