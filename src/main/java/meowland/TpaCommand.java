@@ -12,11 +12,15 @@ import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.Material;
+import java.lang.Math;
 
 public class TpaCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
          if(cmd.getName().equalsIgnoreCase("tpa")){
-             //Потом сделаю
+             int x = -3000 + Math.random()*3000;
+             int z = -3000 + Math.random()*3000;
+             int y = 70;
+             player.teleport(new Location(player.getWorld(), x, y, z));
              return true;
          }
          return false;
