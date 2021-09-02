@@ -14,7 +14,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.Material;
 import org.bukkit.potion.PotionEffect;
 
-public class CommandSword implements CommandExecutor {
+public class CommandNight implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
          if(cmd.getName().equalsIgnoreCase("night")){
              Player player = (Player) sender;
