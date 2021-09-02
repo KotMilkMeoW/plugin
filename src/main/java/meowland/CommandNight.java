@@ -20,7 +20,7 @@ public class CommandNight implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
          if(cmd.getName().equalsIgnoreCase("night")){
              Player player = (Player) sender;
-             player.addPoitonEffect(new PotionEffect(PotionEffectType.NIGHT_VISION, 10000, 1));
+             player.addPotionEffect(new PotionEffect(PotionEffectType.NIGHT_VISION, 10000, 1));
              return true;
          }
          return false;
