@@ -22,6 +22,7 @@ public class Main extends JavaPlugin
     {
          getCommand("sword").setExecutor(new CommandSword());
          getCommand("tpa").setExecutor(new TpaCommand());
+         getCommand("night").setExecutor(new CommandNight());
          this.getLogger().info("ПЛУГИН ЗАПУСТИЛСЯ!!! (УДИВИТЕЛЬНО)");
     }
     @Override
