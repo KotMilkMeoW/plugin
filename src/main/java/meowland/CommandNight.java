@@ -1,5 +1,6 @@
 package meowland;
 
+import org.bukkit.potion.PotionEffectType;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
